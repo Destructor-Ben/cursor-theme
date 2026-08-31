@@ -16,7 +16,7 @@ TODO: preview image here (dark theme)
 
 A pastel cursor theme with thick borders and rounded edges.
 
-Modifies the original Catpuccin cursor theme by making the borders thicker, tweaking the shadows, and replacing the loading animation with an animated infinity symbol.
+Modifies the original Catppuccin cursor theme by making the borders thicker, tweaking the shadows, and replacing the loading animation with an animated infinity symbol.
 
 ## Acknowledgement
 
