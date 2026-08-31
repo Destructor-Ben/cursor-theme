@@ -5,6 +5,7 @@
 # TODO
 
 - setup flake
+
 - finish updating all of the cursors
   - make borders thicker
   - make the loading icon an infinity symbol
@@ -12,7 +13,7 @@
 
 -->
 
-TODO: preview image here (dark theme)
+TODO: preview image here (mocha dark theme)
 
 A pastel cursor theme with thick borders and rounded edges.
 
@@ -21,3 +22,7 @@ Modifies the original Catppuccin cursor theme by making the borders thicker, twe
 ## Acknowledgement
 
 Based on the original [Catppuccin Cursors](https://github.com/catppuccin/cursors), which is based on [Volantes Cursors](https://github.com/varlesh/volantes-cursors).
+
+## Usage
+
+TODO
