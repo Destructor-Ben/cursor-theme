@@ -1,5 +1,5 @@
 {
-  description = "Thick & rounded cursor theme";
+  description = "Pastel cursor theme with thick borders and rounded edges";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
