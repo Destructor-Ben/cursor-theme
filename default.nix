@@ -77,6 +77,9 @@ stdenvNoCC.mkDerivation {
 
     rm -rf src/svgs
     cp -r ${./src/modified} src/svgs
+
+    substituteInPlace scripts/build-cursors \
+      --replace-fail 'FRAME_TIME=30' 'FRAME_TIME=60'
   '';
 
   buildPhase = ''
