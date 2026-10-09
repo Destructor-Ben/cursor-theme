@@ -9,6 +9,62 @@
   - make the loading icon an infinity symbol
 - TODO: update the description in default.nix
 
+# Cursors
+
+## Text
+- [x] text
+- [x] vertical-text
+
+## Pointer
+
+- [ ] default
+- [ ] right_ptr
+- [ ] center_ptr
+
+- [ ] alias
+- [ ] context-menu
+- [ ] copy
+- [ ] help
+- [ ] no-drop
+
+## Arrow
+
+- [ ] all-scroll
+- [ ] bottom_left_corner
+- [ ] bottom_right_corner
+- [ ] bottom_side
+- [ ] col-resize
+- [ ] down-arrow
+- [ ] left-arrow
+- [ ] left_side
+- [ ] src/modified/right-arrow.svg src/modified/right_side.svg src/modified/row-resize.svg src/modified/size_bdiag.svg src/modified/size_fdiag.svg src/modified/size_hor.svg src/modified/size_ver.svg src/modified/top_left_corner.svg src/modified/top_right_corner.svg src/modified/top_side.svg src/modified/up-arrow.svg
+
+## Hand
+
+- [ ] dnd-move
+- [ ] dnd-no-drop
+- [ ] openhand
+- [ ] pointer
+
+## Loading
+
+- [ ] progress
+- [ ] wait
+
+## Misc
+
+- [ ] cell
+- [ ] crosshair
+- [ ] color-picker
+- [ ] draft
+- [ ] not-allowed
+- [ ] pencil
+- [ ] pirate
+- [ ] wayland-cursor
+- [ ] x-cursor
+- [ ] zoom-in
+- [ ] zoom-out
+
 -->
 
 TODO: preview image here (mocha dark theme)

@@ -19,9 +19,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="13.729224"
-     inkscape:cx="3.6418665"
-     inkscape:cy="16.461236"
+     inkscape:zoom="16.00699"
+     inkscape:cx="-1.062036"
+     inkscape:cy="14.930977"
      inkscape:window-width="1892"
      inkscape:window-height="998"
      inkscape:window-x="0"
@@ -44,28 +44,32 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter6"
-       x="-0.159495"
-       y="-0.046519375"
-       width="1.31899"
-       height="1.0930387">
+       id="filter1"
+       x="-1.1094483"
+       y="-0.16641725"
+       width="3.2188966"
+       height="1.3328345">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.46519375"
-         id="feGaussianBlur6" />
+         stdDeviation="0.34514375"
+         id="feGaussianBlur2" />
     </filter>
   </defs>
   <path
-     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:0.2;vector-effect:none;fill:#000000;fill-opacity:1;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke markers fill;filter:url(#filter6);enable-background:accumulate;stop-color:#000000"
-     d="m 14.528,4.528 a 2.0002,2.0002 0 0 0 -2,2 v 1 a 2.0002,2.0002 0 0 0 1,1 v 16 a 2.0002,2.0002 0 0 0 -1,1 v 1 a 2.0002,2.0002 0 0 0 2,2 h 3 a 2.0002,2.0002 0 0 0 2,-2 v -1 a 2.0002,2.0002 0 0 0 -1,-1 v -16 a 2.0002,2.0002 0 0 0 1,-1 v -1 a 2.0002,2.0002 0 0 0 -2,-2 z"
-     id="path5" />
+     d="m 15,6.5 v 1 h 1 v 18 h -1 v 1 h 3 v -1 h -1 v -18 h 1 v -1 z"
+     style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;filter:url(#filter1)"
+     id="path2" />
   <path
-     d="m 14,6 v 1 h 1 v 18 h -1 v 1 h 3 V 25 H 16 V 7 h 1 V 6 Z"
-     style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+     d="m 14.5,6 v 1 h 1 v 18 h -1 v 1 h 3 v -1 h -1 V 7 h 1 V 6 Z"
+     style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#00ff00;stroke-width:5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+     id="path1" />
+  <path
+     d="m 14.5,6 v 1 h 1 v 18 h -1 v 1 h 3 v -1 h -1 V 7 h 1 V 6 Z"
+     style="display:inline;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
      id="path3" />
   <path
      id="hotspot"
-     d="m 16,15 h -1 v 1 h 1 z"
+     d="m 16,16 h 1 v 1 h -1 z"
      display="none"
      fill="#333333"
      stroke-width="1.18965" />
