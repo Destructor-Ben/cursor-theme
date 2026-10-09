@@ -11,16 +11,11 @@
     flake-utils.lib.eachDefaultSystem (
       system:
       let
-        pkgs = import nixpkgs {
-          inherit system;
-          overlays = [
-            (import ./overlay.nix)
-          ];
-        };
+        pkgs = import nixpkgs { inherit system; };
       in
       {
-        packages.default = pkgs.catppuccin-cursors;
-        packages.personal = pkgs.catppuccin-cursors.mochaDark;
+        packages.default = pkgs.callPackage (import ./.) {};
+        packages.personal = (pkgs.callPackage (import ./.) { onlyBuildPersonal = true; }).mochaDark;
 
         formatter = pkgs.nixfmt-tree;
       }

@@ -15,5 +15,7 @@ zip:
 build f a=accents:
   ./build -f {{f}} -a '{{a}}'
 
-# Generate all flavors with their accents - old: (build "latte") (build "frappe") (build "macchiato") (build "mocha")
-all: clean (build "mocha" "dark")
+# Generate all flavors with their accents
+all: clean (build "latte") (build "frappe") (build "macchiato") (build "mocha")
+
+personal: clean (build "mocha" "dark")

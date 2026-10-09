@@ -1,0 +1,54 @@
+---
+whiskers:
+  version: 2.5.1
+  matrix:
+    - frame: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+    - file: ['wait']
+    - accent: ["blue", "dark", "flamingo", "green", "lavender", "light", "maroon", "mauve", "peach", "pink", "red", "rosewater", "sapphire", "sky", "teal", "yellow"]
+    - flavor
+  filename: "svgs/catppuccin-{{flavor.identifier}}-{{accent}}-cursors/{{file}}-{{frame}}.svg"
+---
+{%- set border = flavor.colors["base"] -%}
+{%- set special = border -%}
+
+{%- if (flavor.light and accent == 'light') or (flavor.dark and accent == 'dark') -%} {#- generate the 'custom' accent with special -#}
+  {%- set inner = flavor.colors["base"] -%}
+  {%- set border = flavor.colors["text"] -%}
+  {%- set special = flavor.colors["lavender"] -%}
+{%- elif accent == 'dark' or accent == 'light' -%} {%- set inner = flavor.colors["text"] -%} {#- generate the other 'custom' accent without special -#}
+{%- else -%} {%- set inner = flavor.colors[accent] -%}
+{%- endif -%}
+
+{%- if frame == "01" or frame == "12" -%} {%- set current_frame_01 = "inline" -%} {%- else -%} {%- set current_frame_01 = "none" -%} {%- endif -%}
+{%- if frame == "02" or frame == "01" -%} {%- set current_frame_02 = "inline" -%} {%- else -%} {%- set current_frame_02 = "none" -%} {%- endif -%}
+{%- if frame == "03" or frame == "02" -%} {%- set current_frame_03 = "inline" -%} {%- else -%} {%- set current_frame_03 = "none" -%} {%- endif -%}
+{%- if frame == "04" or frame == "03" -%} {%- set current_frame_04 = "inline" -%} {%- else -%} {%- set current_frame_04 = "none" -%} {%- endif -%}
+{%- if frame == "05" or frame == "04" -%} {%- set current_frame_05 = "inline" -%} {%- else -%} {%- set current_frame_05 = "none" -%} {%- endif -%}
+{%- if frame == "06" or frame == "05" -%} {%- set current_frame_06 = "inline" -%} {%- else -%} {%- set current_frame_06 = "none" -%} {%- endif -%}
+{%- if frame == "07" or frame == "06" -%} {%- set current_frame_07 = "inline" -%} {%- else -%} {%- set current_frame_07 = "none" -%} {%- endif -%}
+{%- if frame == "08" or frame == "07" -%} {%- set current_frame_08 = "inline" -%} {%- else -%} {%- set current_frame_08 = "none" -%} {%- endif -%}
+{%- if frame == "09" or frame == "08" -%} {%- set current_frame_09 = "inline" -%} {%- else -%} {%- set current_frame_09 = "none" -%} {%- endif -%}
+{%- if frame == "10" or frame == "09" -%} {%- set current_frame_10 = "inline" -%} {%- else -%} {%- set current_frame_10 = "none" -%} {%- endif -%}
+{%- if frame == "11" or frame == "10" -%} {%- set current_frame_11 = "inline" -%} {%- else -%} {%- set current_frame_11 = "none" -%} {%- endif -%}
+{%- if frame == "12" or frame == "11" -%} {%- set current_frame_12 = "inline" -%} {%- else -%} {%- set current_frame_12 = "none" -%} {%- endif -%}
+
+{{- read_file(path="../svgs/" ~ file ~ ".svg")
+  | replace(from="FF0000", to=inner.hex)
+  | replace(from="ff0000", to=inner.hex)
+  | replace(from="00FF00", to=border.hex)
+  | replace(from="00ff00", to=border.hex)
+  | replace(from="0000FF", to=special.hex)
+  | replace(from="0000ff", to=special.hex)
+  | replace(from="frame-01-active", to=current_frame_01)
+  | replace(from="frame-02-active", to=current_frame_02)
+  | replace(from="frame-03-active", to=current_frame_03)
+  | replace(from="frame-04-active", to=current_frame_04)
+  | replace(from="frame-05-active", to=current_frame_05)
+  | replace(from="frame-06-active", to=current_frame_06)
+  | replace(from="frame-07-active", to=current_frame_07)
+  | replace(from="frame-08-active", to=current_frame_08)
+  | replace(from="frame-09-active", to=current_frame_09)
+  | replace(from="frame-10-active", to=current_frame_10)
+  | replace(from="frame-11-active", to=current_frame_11)
+  | replace(from="frame-12-active", to=current_frame_12)
+-}}

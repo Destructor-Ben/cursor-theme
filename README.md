@@ -2,14 +2,12 @@
 
 <!--
 
-# TODO
-
-- setup flake
+- make all of the animated cursor (wait/progress) use auto generated for them
 
 - finish updating all of the cursors
   - make borders thicker
   - make the loading icon an infinity symbol
-- use the flake in my system config
+- TODO: update the description in default.nix
 
 -->
 
