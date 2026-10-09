@@ -10,7 +10,7 @@ whiskers:
     - accent: ["blue", "dark", "flamingo", "green", "lavender", "light", "maroon", "mauve", "peach", "pink", "red", "rosewater", "sapphire", "sky", "teal", "yellow"]
     - flavor
   filename: "svgs/catppuccin-{{flavor.identifier}}-{{accent}}-cursors/{{file}}.svg"
-special_map: {"alias": "mauve", "context-menu": "peach", "copy": "green", "dnd-no-drop": "red", "help": "blue", "no-drop": "red", "not-allowed": "red", "pirate": "red",
+special_map: {"alias": "lavender", "context-menu": "peach", "copy": "green", "dnd-no-drop": "red", "help": "blue", "no-drop": "red", "not-allowed": "red", "pirate": "red",
 "progress-01": "lavender", "progress-02": "lavender", "progress-03": "lavender", "progress-04": "lavender", "progress-05": "lavender", "progress-06": "lavender", "progress-07":
 "lavender", "progress-08": "lavender", "progress-09": "lavender", "progress-10": "lavender", "progress-11": "lavender", "progress-12": "lavender", "wayland-cursor": "peach", "x-cursor": "maroon"}
 ---

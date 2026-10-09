@@ -14,7 +14,7 @@ whiskers:
 {%- if (flavor.light and accent == 'light') or (flavor.dark and accent == 'dark') -%} {#- generate the 'custom' accent with special -#}
   {%- set inner = flavor.colors["base"] -%}
   {%- set border = flavor.colors["text"] -%}
-  {%- set special = flavor.colors["lavender"] -%}
+  {%- set special = flavor.colors["mauve"] -%}
 {%- elif accent == 'dark' or accent == 'light' -%} {%- set inner = flavor.colors["text"] -%} {#- generate the other 'custom' accent without special -#}
 {%- else -%} {%- set inner = flavor.colors[accent] -%}
 {%- endif -%}
